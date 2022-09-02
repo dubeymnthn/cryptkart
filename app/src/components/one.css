@@ -1,0 +1,52 @@
+ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.two {
+  float: right;
+}
+
+.one {
+  float: right;
+}
+
+li a:hover:not(.active) {
+  color: white;
+  background-color: blue;
+}
+
+
+
+.m {
+  margin-top: 10%;
+  color: aliceblue;
+  text-align: center;
+}
+#tsparticles {
+  width: 100%;
+  height: 100%;
+  margin: 10%;
+  padding: 0;
+  top: 0;
+  left: 0;
+  position: relative;
+}
